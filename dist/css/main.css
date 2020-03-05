@@ -1,0 +1,30 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+body .page .content-area {
+  width: calc(100% - 250px);
+  min-height: 100vh;
+  margin-left: auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page .sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background-color: #ccc;
+  position: fixed;
+  padding: 15px;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
